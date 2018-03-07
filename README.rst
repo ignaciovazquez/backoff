@@ -103,8 +103,8 @@ be retried:
         return requests.get(url)
 
 When a give up event occurs, the exception in question is reraised
-and so code calling an `on_exception` decorated may still need to
-do exception handling.
+and so code calling an `on_exception`-decorated function may still
+need to do exception handling.
 
 @backoff.on_predicate
 ---------------------
