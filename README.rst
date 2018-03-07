@@ -157,7 +157,7 @@ implements the 'Full Jitter' algorithm as defined in the AWS
 Architecture Blog's `Exponential Backoff And Jitter
 <https://www.awsarchitectureblog.com/2015/03/backoff.html>`_ post.
 Note that with this algorithm, the time yielded by the wait generator
-is actually the _maximum_ amount of time to wait.
+is actually the *maximum* amount of time to wait.
 
 Previous versions of backoff defaulted to adding some random number of
 milliseconds (up to 1s) to the raw sleep value. If desired, this
