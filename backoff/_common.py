@@ -97,5 +97,5 @@ def _log_giveup(details):
 # so we do our own implementation here.
 def _total_seconds(timedelta):
     return (
-        (timedelta.microseconds +
+        (timedelta.microseconds + 0.0 +
          (timedelta.seconds + timedelta.days * 24 * 3600) * 10**6) / 10**6)
