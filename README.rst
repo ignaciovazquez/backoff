@@ -59,7 +59,7 @@ you want the same backoff behavior for more than one exception type:
 Optional keyword arguments can specify conditions under which to give
 up.
 
-The keyword argument `max_time` specifies the maximum amount
+The keyword argument ``max_time`` specifies the maximum amount
 of total time in seconds that can elapse before giving up.
 
 .. code-block:: python
@@ -71,7 +71,7 @@ of total time in seconds that can elapse before giving up.
         return requests.get(url)
 
 
-Keyword argument `max_tries` specifies the maximum number of calls
+Keyword argument ``max_tries`` specifies the maximum number of calls
 to make to the target function before giving up.
 
 .. code-block:: python
